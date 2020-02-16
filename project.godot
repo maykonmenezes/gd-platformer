@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "Actor",
 "language": "GDScript",
-"path": "res://Actors/Actor.gd"
+"path": "res://src/Actors/Actor.gd"
 } ]
 _global_script_class_icons={
 "Actor": ""
@@ -22,6 +22,11 @@ _global_script_class_icons={
 
 config/name="Platformer"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1938
+window/size/height=974
 
 [input]
 
